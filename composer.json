@@ -1,11 +1,11 @@
 {
     "name": "sigmie/search",
-    "description": "Sigmie Search package.",
+    "description": "The Sigmie Search package.",
     "license": "MIT",
-    "homepage": "https://docs.sigmie.com/search",
+    "homepage": "https://docs.sigmie.com",
     "support": {
         "issues": "https://github.com/sigmie/sigmie/issues",
-        "source": "https://github.com/sigmie/search"
+        "source": "https://github.com/sigmie/sigmie"
     },
     "authors": [
         {
@@ -21,6 +21,12 @@
             "Sigmie\\Search\\": ""
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
+    "suggest": {},
     "config": {
         "sort-packages": true
     },
